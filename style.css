@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(59, 59, 59);
+}
+#barraNavegacao{ background-color: rgb(99, 26, 26); color: rgb(255, 255, 255); list-style: none; display: flex; flex-direction: row; justify-content: space-between; gap: 60px; padding: 35px; align-items: center; } #barraNavegacao a{ color: white; text-decoration: none; } #barraNavegacao h1{ margin: 0; } #barraNavegacao div{ display: flex; flex-direction: row; align-items: center; gap: 70px; }
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #bebebe;
+}
+h2{
+    color: #bebebe;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12;
+    color: #bebebe;
+    float: left;
+}
+hr{
+    border: 0,5px solid;
+    border-color: #bebebe;
+    width: 1000px;
+}
+table{
+    border: 2px solid;
+}
+tr,td{
+    border: 1px solid;
+    width: 200px;
+    text-align: center;
+}
+#gmail{
+    width: 5%;
+    height: 5%;
+}
+img{
+    width: 40%;
+    height:40%;
+    border-radius: 10px; 
+}
+#cabeçalho{
+    background-color: rgb(255, 255, 255);
+}
+.menu{
+    display: inline-block;
+    color: crimson;/*Cor das letras*/
+    text-decoration: none;/*retira o traçado do link*/
+}
+.start a{
+    display: inline-block;
+    color: crimson;/*Cor das letras*/
+    text-decoration: none;/*retira o traçado do link*/
+}
+.menu a{
+    display: inline-block; /*Cria uma cx para cada item do menu*/
+    color: rgb(255, 255, 255);/*Cor das letras*/
+    text-align: center;/*Alinhamento do texto no bloco*/
+    padding: 15px 15px;/*Espaço do texto para borda superior e inferior*/
+    text-decoration: none;/*retira o traçado do link*/
+    width: auto;/*largura do bloco*/
+}
+li a:hover{
+    background-color: crimson;
+    color: #fff8dc;
+}
+div{
+    width: 40%;
+    height: 70%;
+    display: inline-block;
+}
+#s{
+    width: 40%;
+    height: 70%;
+    float: left;
+}
